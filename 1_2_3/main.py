@@ -31,6 +31,8 @@ def move_apple():
   writer.clear()
 
 def draw_a():
+  writer.penup()
+  writer.setposition(-40,-45)
   writer.color("white")
   writer.write("A", font=("Arial", 74, "bold"))
 
